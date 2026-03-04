@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Darshan Babariya — Developer Portfolio
 
-## Getting Started
+A modern, responsive **developer portfolio website** built with **Next.js, TypeScript, Tailwind CSS, and Framer Motion** to showcase my projects, skills, and experience as a Full Stack Developer.
 
-First, run the development server:
+---
+
+## 🚀 Live Website
+
+👉 https://darshanbabariya.dev
+*(Replace with your deployed Vercel URL once deployed)*
+
+---
+
+## 🧑‍💻 About
+
+I am a **Full Stack Developer specializing in Next.js and MERN stack**.
+This portfolio highlights my real-world projects, developer activity, and technical skills.
+
+The goal of this portfolio is to present my work in a **clean, modern, and interactive way**.
+
+---
+
+## ✨ Features
+
+* ⚡ Built with **Next.js (App Router)**
+* 🎨 Modern UI with **Tailwind CSS & Shadcn UI**
+* 🎬 Smooth animations using **Framer Motion**
+* 📱 Fully **responsive design**
+* 📊 Developer stats & GitHub activity
+* 🧩 Component-based architecture
+* 📬 Working **contact form**
+* 🔍 SEO optimized
+* 🚀 Optimized performance (Lighthouse 90+)
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Shadcn UI
+* Framer Motion
+
+**Backend / APIs**
+
+* Next.js API Routes
+* Nodemailer (Contact form)
+
+**Tools**
+
+* Git
+* GitHub
+* Vercel
+
+---
+
+## 📂 Project Structure
+
+src
+├─ app
+├─ components
+├─ data
+├─ lib
+└─ styles
+
+---
+
+## 🧩 Key Sections
+
+* Hero Section
+* Projects Showcase
+* Skills Dashboard
+* Developer Stats
+* Contact Form
+* Responsive Navbar & Footer
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/darshan-portfolio.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📬 Contact
 
-To learn more about Next.js, take a look at the following resources:
+If you'd like to collaborate or discuss opportunities:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📧 Email: [darshanb2390@gmail.com](mailto:darshanb2390@gmail.com)
+💼 LinkedIn: https://linkedin.com
+🐙 GitHub: https://github.com/Darshan2095
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⭐ Support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you like this project, consider **starring the repository** ⭐
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+Built with ❤️ by **Darshan Babariya**
