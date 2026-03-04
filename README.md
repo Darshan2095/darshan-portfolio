@@ -7,7 +7,6 @@ A modern, responsive **developer portfolio website** built with **Next.js, TypeS
 ## 🚀 Live Website
 
 👉 https://darshanbabariya.dev
-*(Replace with your deployed Vercel URL once deployed)*
 
 ---
 
