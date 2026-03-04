@@ -112,7 +112,7 @@ http://localhost:3000
 If you'd like to collaborate or discuss opportunities:
 
 📧 Email: [darshanb2390@gmail.com](mailto:darshanb2390@gmail.com)
-💼 LinkedIn: https://linkedin.com
+💼 LinkedIn: https://linkedin.com](https://www.linkedin.com/in/darshanbabariya/
 🐙 GitHub: https://github.com/Darshan2095
 
 ---
