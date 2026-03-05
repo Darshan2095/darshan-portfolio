@@ -90,8 +90,8 @@ export default function Hero() {
                         <div className="flex flex-wrap justify-center gap-6 md:gap-10 grayscale opacity-50 hover:opacity-100 transition-opacity duration-500">
                             <span className="font-bold text-xl tracking-tighter">NEXT.JS</span>
                             <span className="font-bold text-xl tracking-tighter">REACT</span>
-                            <span className="font-bold text-xl tracking-tighter">MONGODB</span>
-                            <span className="font-bold text-xl tracking-tighter">TAILWIND</span>
+                            <span className="font-bold text-xl tracking-tighter">MERN</span>
+                            <span className="font-bold text-xl tracking-tighter">TYPESCRIPT</span>
                         </div>
                     </motion.div>
 

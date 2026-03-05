@@ -35,9 +35,7 @@ export default function SkillCard({ category, items }: Props) {
                                     <span className="text-sm font-medium">{skill.name}</span>
                                 </div>
 
-                                <span className="text-[10px] font-bold text-muted-foreground tabular-nums bg-secondary px-2 py-0.5 rounded">
-                                    {skill.level}%
-                                </span>
+
                             </div>
 
                             {/* Enhanced Progress Bar */}
