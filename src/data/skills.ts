@@ -13,7 +13,8 @@ import {
     SiMongodb,
     SiMysql,
     SiGithubactions,
-    SiVercel
+    SiVercel,
+    SiPostgresql
 } from "react-icons/si";
 
 export const skills = [
@@ -36,8 +37,9 @@ export const skills = [
     {
         category: "Database",
         items: [
-            { name: "MongoDB", icon: SiMongodb, level: 85 },
+            { name: "PostgreSQL", icon: SiPostgresql, level: 85 },
             { name: "MySQL", icon: SiMysql, level: 75 },
+            { name: "MongoDB", icon: SiMongodb, level: 85 },
         ],
     },
     {
