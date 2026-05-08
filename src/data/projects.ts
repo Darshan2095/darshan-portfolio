@@ -1,7 +1,7 @@
 export const projects = [
     {
         featured: true,
-        title: "CareerDisha",
+        title: "HireAI",
         description:
             "AI-powered career platform enabling resume analysis, job matching, interview preparation, and recruiter-based candidate filtering using modern AI workflows.",
         image: "/projects/hireai.png",
