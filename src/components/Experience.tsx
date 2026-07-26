@@ -8,7 +8,7 @@ const experiences = [
         role: "Full Stack Developer Intern",
         company: "Teachnook",
         duration: "Mar 2024 – May 2024",
-        skills: ["React", "Node.js", "MongoDB", "API Design"],
+        skills: ["Next.js", "Node.js", "MongoDB", "API Design"],
         description: [
             "Engineered scalable APIs and optimized database schemas for performance.",
             "Collaborated on production-level features using the MERN stack.",
@@ -16,16 +16,16 @@ const experiences = [
         ],
     },
     {
-        role: "Full Stack Contributor",
-        company: "Rhyno.ev Project",
-        duration: "2024 - Present",
-        skills: ["Next.js", "Tailwind CSS", "UX Design"],
-        description: [
-            "Building the digital face of an electric bike startup.",
-            "Implementing highly responsive, fluid UI components with Next.js.",
-            "Ensuring cross-browser compatibility and mobile-first performance."
-        ],
-    },
+    role: "MERN Stack Intern",
+    company: "Unified Mentor",
+    duration: "May 2026 – Jul 2026",
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    description: [
+        "Engineered RentEase and PropertyPulse to solve real-world rental and property management workflows.",
+        "Built secure REST APIs, authentication, role-based access, and scalable MongoDB data models.",
+        "Resolved API, database, and frontend-backend integration issues to deliver reliable end-to-end workflows."
+    ],
+},
 ];
 
 export default function Experience() {
