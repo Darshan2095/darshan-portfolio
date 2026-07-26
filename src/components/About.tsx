@@ -123,11 +123,11 @@ export default function About() {
                         </div>
                         <div>
                             <p className="text-sm font-bold">Currently Pursuing</p>
-                            <p className="text-xs text-muted-foreground">Computer Engineering — 6th Semester, VGEC</p>
+                            <p className="text-xs text-muted-foreground">Computer Engineering — 7th Semester, VGEC</p>
                         </div>
                     </div>
                     <div className="flex gap-2">
-                        {["Next.js", "TypeScript", "Node", "MongoDB"].map((tag) => (
+                        {["Next.js", "TypeScript", "MERN", "Tailwind CSS"].map((tag) => (
                             <span key={tag} className="px-3 py-1 rounded-md bg-secondary text-[10px] font-bold uppercase tracking-wider border border-border">
                                 {tag}
                             </span>

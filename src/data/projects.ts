@@ -26,19 +26,19 @@ export const projects = [
     },
     {
         featured: false,
-        title: "CareerDisha",
+        title: "RentEase",
         description:
-            "Career guidance platform providing structured information on courses, colleges, exams, and scholarships for students.",
-        image: "/projects/careerdisha.png",
-        tech: ["Next.js", "Node.js", "MongoDB", "Tailwind"],
+            "Full-stack furniture and appliance rental platform with flexible rental plans, secure checkout, and rental management.",
+        image: "/projects/rentease.png",
+        tech: ["Next.js", "Node.js", "Express.js", "MongoDB"],
         features: [
-            "Admin dashboard",
-            "SEO optimized pages",
-            "Dynamic course data",
-            "Responsive UI",
-        ],
-        live: "https://career-disha-eosin.vercel.app/",
-        github: "https://github.com/Darshan2095/CareerDisha",
+        "Furniture & appliance rentals",
+        "Cart & checkout flow",
+        "Order & rental tracking",
+        "Admin management dashboard",
+    ],
+        live: "https://rent-ease-amber.vercel.app/",
+        github: "https://github.com/Darshan2095/RentEase",
     },
     {
         featured: false,
@@ -56,6 +56,23 @@ export const projects = [
         live: "https://my-pg-snowy.vercel.app/",
         github: "https://github.com/Darshan2095/MyPG",
     },
+    {
+        featured: false,
+        title: "CareerDisha",
+        description:
+            "Career guidance platform providing structured information on courses, colleges, exams, and scholarships for students.",
+        image: "/projects/careerdisha.png",
+        tech: ["Next.js", "Node.js", "MongoDB", "Tailwind"],
+        features: [
+            "Admin dashboard",
+            "SEO optimized pages",
+            "Dynamic course data",
+            "Responsive UI",
+        ],
+        live: "https://career-disha-eosin.vercel.app/",
+        github: "https://github.com/Darshan2095/CareerDisha",
+    },
+    
     // {
     //     featured: false,
     //     title: "Aadhaar Booking System",

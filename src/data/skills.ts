@@ -23,8 +23,8 @@ export const skills = [
         items: [
             { name: "Next.js", icon: SiNextdotjs, level: 90 },
             { name: "React.js", icon: FaReact, level: 90 },
-            { name: "Tailwind CSS", icon: SiTailwindcss, level: 85 },
             { name: "TypeScript", icon: SiTypescript, level: 80 },
+            { name: "Tailwind CSS", icon: SiTailwindcss, level: 85 },
         ],
     },
     {
@@ -37,9 +37,9 @@ export const skills = [
     {
         category: "Database",
         items: [
-            { name: "PostgreSQL", icon: SiPostgresql, level: 85 },
-            { name: "MySQL", icon: SiMysql, level: 75 },
             { name: "MongoDB", icon: SiMongodb, level: 85 },
+            { name: "MySQL", icon: SiMysql, level: 85 },
+            { name: "PostgreSQL", icon: SiPostgresql, level: 60 },
         ],
     },
     {
