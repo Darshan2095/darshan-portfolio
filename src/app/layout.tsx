@@ -6,13 +6,13 @@ import PageTransition from "@/components/PageTransition";
 import ScrollProgress from "@/components/ScrollProgress";
 import SmoothScroll from "@/components/SmoothScroll";
 import Footer from "@/components/Footer";
-
-
+import CustomCursor from "@/components/CustomCursor";
 
 export const metadata: Metadata = {
-  title: "Darshan Babariya | Full Stack Developer",
+  metadataBase: new URL("https://darshanbabariya.dev"),
+  title: "Darshan Babariya | Full Stack Engineer & Next.js Developer",
   description:
-    "Portfolio of Darshan Babariya, a Full Stack Developer specializing in Next.js, MERN stack, and modern web applications.",
+    "Portfolio of Darshan Babariya, Full Stack Engineer & Computer Engineering Student @ VGEC specializing in Next.js, MERN stack, and AI web applications.",
 
   keywords: [
     "Darshan Babariya",
@@ -21,12 +21,15 @@ export const metadata: Metadata = {
     "MERN Stack",
     "React Developer",
     "Node.js Developer",
+    "VGEC",
+    "HireAI",
+    "RentEase",
   ],
 
   authors: [{ name: "Darshan Babariya" }],
 
   openGraph: {
-    title: "Darshan Babariya | Full Stack Developer",
+    title: "Darshan Babariya | Full Stack Engineer",
     description:
       "Explore projects, skills, and experience of Darshan Babariya — Full Stack Developer specializing in Next.js and MERN.",
     url: "https://darshanbabariya.dev",
@@ -44,9 +47,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Darshan Babariya | Full Stack Developer",
+    title: "Darshan Babariya | Full Stack Engineer",
     description:
-      "Full Stack Developer specializing in Next.js and MERN stack.",
+      "Full Stack Developer specializing in Next.js, MERN stack, and modern web apps.",
     images: ["/og-image.png"],
   },
 };
@@ -62,8 +65,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.variable} font-sans`}>
+    <html lang="en" className="dark scroll-smooth">
+      <body className={`${inter.variable} font-sans bg-background text-foreground antialiased`}>
+        <CustomCursor />
         <ScrollProgress />
         <Navbar />
         <PageTransition>

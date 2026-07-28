@@ -1,107 +1,110 @@
-export const projects = [
-    {
-        featured: true,
-        title: "HireAI",
-        description:
-            "AI-powered career platform enabling resume analysis, job matching, interview preparation, and recruiter-based candidate filtering using modern AI workflows.",
-        image: "/projects/hireai.png",
-        tech: [
-            "Next.js",
-            "PostgreSQL",
-            "Prisma",
-            "Gemini AI",
-            "Tailwind CSS",
-            "UploadThing"
-        ],
-        features: [
-            "AI resume analyzer",
-            "Job matching system",
-            "Mock interview platform",
-            "Recruiter dashboard",
-            "AI candidate ranking",
-            "Resume PDF reports",
-        ],
-        live: "https://hire-ai-blond.vercel.app/",
-        github: "https://github.com/Darshan2095/darshan-portfolio",
-    },
-    {
-        featured: false,
-        title: "RentEase",
-        description:
-            "Full-stack furniture and appliance rental platform with flexible rental plans, secure checkout, and rental management.",
-        image: "/projects/rentease.png",
-        tech: ["Next.js", "Node.js", "Express.js", "MongoDB"],
-        features: [
-        "Furniture & appliance rentals",
-        "Cart & checkout flow",
-        "Order & rental tracking",
-        "Admin management dashboard",
+export interface Project {
+  title: string;
+  category: "ai" | "fullstack" | "mern";
+  featured: boolean;
+  description: string;
+  longDescription?: string;
+  image: string;
+  tech: string[];
+  features: string[];
+  live: string;
+  github: string;
+}
+
+export const projects: Project[] = [
+  {
+    featured: true,
+    category: "ai",
+    title: "HireAI",
+    description:
+      "AI-powered career platform enabling resume analysis, job matching, interview preparation, and recruiter candidate filtering using Gemini AI workflows.",
+    longDescription:
+      "HireAI revolutionizes job hunting and candidate screening by parsing resumes with AI, scoring skill alignment, generating interactive mock interview questions, and providing detailed PDF evaluation reports for recruiters.",
+    image: "/projects/hireai.png",
+    tech: ["Next.js", "PostgreSQL", "Prisma", "Gemini AI", "Tailwind CSS", "UploadThing"],
+    features: [
+      "AI Resume Analyzer & Parser",
+      "Interactive Job Matching Engine",
+      "Mock Interview Platform with AI Feedback",
+      "Recruiter Dashboard & Candidate Ranking",
+      "Downloadable PDF Resume Analytics",
     ],
-        live: "https://rent-ease-amber.vercel.app/",
-        github: "https://github.com/Darshan2095/RentEase",
-    },
-    {
-        featured: false,
-        title: "MyPG",
-        description:
-            "Full-stack PG booking platform with city-based filtering and authentication system.",
-        image: "/projects/mypg.png",
-        tech: ["Next.js", "MongoDB", "NextAuth", "Tailwind"],
-        features: [
-            "City & area filtering",
-            "Role-based authentication",
-            "Dynamic PG pages",
-            "Reusable UI components",
-        ],
-        live: "https://my-pg-snowy.vercel.app/",
-        github: "https://github.com/Darshan2095/MyPG",
-    },
-    {
-        featured: false,
-        title: "CareerDisha",
-        description:
-            "Career guidance platform providing structured information on courses, colleges, exams, and scholarships for students.",
-        image: "/projects/careerdisha.png",
-        tech: ["Next.js", "Node.js", "MongoDB", "Tailwind"],
-        features: [
-            "Admin dashboard",
-            "SEO optimized pages",
-            "Dynamic course data",
-            "Responsive UI",
-        ],
-        live: "https://career-disha-eosin.vercel.app/",
-        github: "https://github.com/Darshan2095/CareerDisha",
-    },
-    
-    // {
-    //     featured: false,
-    //     title: "Aadhaar Booking System",
-    //     description:
-    //         "Online appointment booking system for Aadhaar services with slot availability tracking.",
-    //     image: "/projects/aadhaar.png",
-    //     tech: ["Next.js", "Node.js", "MongoDB"],
-    //     features: [
-    //         "Slot scheduling",
-    //         "User appointment form",
-    //         "Database slot management",
-    //         "SSR optimized",
-    //     ],
-    //     live: "https://adhaar-appointment-system.vercel.app/",
-    //     github: "https://github.com/Darshan2095/SGH",
-    // },
-    {
-        featured: false,
-        title: "Rhyno.ev",
-        description:
-            "Worked as a full-stack developer contributing to development and improvement of the EV platform.",
-        image: "/projects/rhyno.png",
-        tech: ["Next.js", "TypeScript", "Tailwind CSS"],
-        features: [
-            "UI improvements",
-            "Feature implementation",
-            "Performance optimization",
-        ],
-        live: "https://rhyno-ev-virid.vercel.app/",
-        github: "https://github.com/Darshan2095/Rhyno-EV",
-    },
+    live: "https://hire-ai-blond.vercel.app/",
+    github: "https://github.com/Darshan2095/HireAI",
+  },
+  {
+    featured: false,
+    category: "fullstack",
+    title: "RentEase",
+    description:
+      "Full-stack furniture and appliance rental platform with flexible tenure plans, cart management, and admin inventory dashboard.",
+    longDescription:
+      "RentEase simplifies furniture and electronics renting for students and professionals. Features role-based access control, rental tenure calculation, order tracking, and an admin inventory management portal.",
+    image: "/projects/rentease.png",
+    tech: ["Next.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    features: [
+      "Flexible Rental Tenure Selection",
+      "Cart & Instant Checkout Workflows",
+      "Order & Rental Tenure Tracking",
+      "Comprehensive Admin Control Panel",
+    ],
+    live: "https://rent-ease-amber.vercel.app/",
+    github: "https://github.com/Darshan2095/RentEase",
+  },
+  {
+    featured: false,
+    category: "mern",
+    title: "MyPG",
+    description:
+      "Full-stack PG booking platform with city-based search filtering, authentication, and property owner listing tools.",
+    longDescription:
+      "MyPG connects students and working professionals with verified Paying Guest accommodations. Features city-based real-time filters, landlord dashboards, dynamic image galleries, and secure user logins.",
+    image: "/projects/mypg.png",
+    tech: ["Next.js", "MongoDB", "NextAuth", "Tailwind CSS", "Node.js"],
+    features: [
+      "City & Locality Real-Time Filters",
+      "Role-Based Authentication (User/Owner)",
+      "Dynamic PG Accommodation Pages",
+      "Interactive Property Inquiries",
+    ],
+    live: "https://my-pg-snowy.vercel.app/",
+    github: "https://github.com/Darshan2095/MyPG",
+  },
+  {
+    featured: false,
+    category: "fullstack",
+    title: "CareerDisha",
+    description:
+      "Career guidance platform providing structured data on courses, top colleges, entrance exams, and scholarship opportunities.",
+    longDescription:
+      "CareerDisha empowers students with actionable academic insights. Built with SEO best practices, structured dynamic routes, and an admin dashboard to manage course catalogs.",
+    image: "/projects/careerdisha.png",
+    tech: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
+    features: [
+      "Dynamic Entrance Exam & Course Catalog",
+      "Admin Content Management Portal",
+      "Fast SSR Performance & SEO Optimized",
+      "Mobile First Responsive Experience",
+    ],
+    live: "https://career-disha-eosin.vercel.app/",
+    github: "https://github.com/Darshan2095/CareerDisha",
+  },
+  {
+    featured: false,
+    category: "fullstack",
+    title: "Rhyno.ev",
+    description:
+      "Contributed to full-stack development, UI enhancements, and feature optimizations for an Electric Vehicle platform.",
+    longDescription:
+      "Collaborated on designing responsive EV catalog views, enhancing page load speed, and crafting interactive vehicle comparison widgets.",
+    image: "/projects/rhyno.png",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    features: [
+      "Vehicle Specification Comparison View",
+      "High-Performance SSR Architecture",
+      "Modern Dark Mode Aesthetics",
+    ],
+    live: "https://rhyno-ev-virid.vercel.app/",
+    github: "https://github.com/Darshan2095/Rhyno-EV",
+  },
 ];
