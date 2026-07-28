@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import CustomCursor from "@/components/CustomCursor";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://darshanbabariya.dev"),
+  metadataBase: new URL("https://darshan-babariya.vercel.app"),
   title: "Darshan Babariya | Full Stack Engineer & Next.js Developer",
   description:
     "Portfolio of Darshan Babariya, Full Stack Engineer & Computer Engineering Student @ VGEC specializing in Next.js, MERN stack, and AI web applications.",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Darshan Babariya | Full Stack Engineer",
     description:
       "Explore projects, skills, and experience of Darshan Babariya — Full Stack Developer specializing in Next.js and MERN.",
-    url: "https://darshanbabariya.dev",
+    url: "https://darshan-babariya.vercel.app",
     siteName: "Darshan Babariya Portfolio",
     images: [
       {
